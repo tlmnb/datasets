@@ -1,13 +1,6 @@
 name: Build
 
-on:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main
-      - ci-*
+on: workflow_dispatch
 
 jobs:
 
